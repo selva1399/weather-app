@@ -1,0 +1,83 @@
+body {
+  background-color: #d4bee4;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #9b7ebd;
+  border-radius: 0 0 40px 40px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand > span {
+  margin-right: 10px;
+}
+
+.btn-search {
+  background-color: #9b7ebd;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.btn-search:hover {
+  background-color: #3b1e54;
+  color: #ffffff;
+  border-radius: 40px;
+  transition: 1s;
+}
+
+.card-img-top {
+  width: 30px;
+  height: 30px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container-title {
+  background-color: #9b7ebd;
+  color: #ffffff;
+  border-radius: 40px;
+}
+
+.card-top {
+  width: 450px;
+}
+
+.suggestion-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+  margin-left: 5px !important;
+}
+
+@media screen and (max-width: 576px) and (min-width: 350px) {
+  .form-control {
+    width: 450px;
+  }
+  .card {
+    /* width: max-content; */
+    height: max-content;
+    padding: 1rem;
+  }
+
+  .suggestion-bar {
+    margin-left: 2px !important;
+    width: 75%;
+    align-items: center;
+  }
+
+  .card-top {
+    width: 300px;
+  }
+}
